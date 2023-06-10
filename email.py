@@ -85,7 +85,7 @@ while True:
                 break
 
     elif user_choice == "2":
-        # This logic allows the user to view unread emails
+        # This logic allows the user to view unread emails 
         for email in inbox:
             if not email.has_been_read:
                 print(email.subject_line)    
